@@ -1,0 +1,7 @@
+package com.example.mygithubtaskrefacktor.feature_authentication
+
+import com.example.mygithubtaskrefacktor.feature_authentication.data.dataModule
+import com.example.mygithubtaskrefacktor.feature_authentication.domain.domainModule
+import com.example.mygithubtaskrefacktor.feature_authentication.presentation.presentationModule
+
+val authenticationModule = dataModule + domainModule + presentationModule
